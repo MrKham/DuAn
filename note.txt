@@ -1,0 +1,3 @@
+composer require cviebrock/eloquent-sluggable:4.2.5
+
+len server that cap nhat slug
