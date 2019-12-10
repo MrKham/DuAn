@@ -1,0 +1,43 @@
+<div class="like-button-bg" ng-click="likeOrNot()" ng-if="!loading">
+	<img ng-if="liked" src="/images/liked.png">
+	<img ng-if="!liked" src="/images/not-liked.png">
+</div>
+<div class="like-button-loading" ng-if="loading">
+	...
+</div>
+
+
+<style type="text/css">
+	.like-button-loading {
+		background-color: #744ff5;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		display: block;
+		color: #fff;
+		padding: 0px 11px;
+	}
+	.like-button-bg {
+		background-color: #744ff5;
+		cursor: pointer;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		display: block;
+		/*text-align: center;*/
+		padding-top: 3px;
+		position: relative;
+	}
+
+	.like-button-bg img {
+		width: 15px;
+		height: auto;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+	}
+
+	.like-button-bg:hover {
+		background-color: #663ef4;
+	}
+</style>

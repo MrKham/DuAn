@@ -1,0 +1,230 @@
+
+.bd-example {
+    margin-top: 25px;
+    max-height: 420px;
+}
+.bd-example img{
+    height: 420px;
+    object-fit: cover;
+}
+
+@media only screen and (max-device-width : 640px) {
+    body{
+        overflow-x: hidden;
+    }
+    .bd-example img{
+        height: 205px;
+        object-fit: cover;
+    }
+   #show-all{
+        text-align: left;
+    }
+    .home .focus-title{
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    .home .contact {
+        padding:0 10px;
+    }
+    /*phan đầu của các trang giống khám phá*/
+    .breadcrumb-item {
+        margin-top: 20px;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .search-box{
+        margin-top: 0 !important;
+        margin-bottom: 20px;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .agency_item{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .agency_icon {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .agency_shape {
+        width: 10px !important;
+        height: 11px !important;
+        margin-top: 7px !important;
+    }
+}
+@media (min-width: 768px){
+    #show-all{
+        margin-top: 20px; text-align: right;
+    }
+}
+@media (min-width: 1200px){
+    #show-all{
+        margin-top: 20px; text-align: right;
+    }
+}
+
+.home .focus-title{
+        margin-top: 30px;
+}
+
+.Rectangle-17 {
+    width: 90%;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #f0f0f0;
+}
+.Rectangle-19 {
+    width: 67%;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #f0f0f0;
+}
+.Rectangle-18 {
+    width: 70%;
+    height: 8px;
+    border-radius: 100px;
+    background-color: #0ed1b1;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.Rectangle-20 {
+    width: 100px;
+    height: 28px;
+    background-color: #3a7bd5;
+    border: solid 1px #3a7bd5;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    text-align: center;
+    color: white !important;
+    text-decoration: none !important;
+    z-index: 10;
+}
+.Rectangle-20:hover{
+    background: #809bff;
+    border: solid 1px #809bff;
+}
+
+
+.home ul li a {
+    color: #333333;
+}
+
+.home ul li a:hover {
+    border-bottom: 3px solid #3a7bd5;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.zoom img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoom img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.send-by {
+    font-family: SourceSansPro;
+    font-size: 13px;
+    font-weight: normal;
+    color: #999999;
+}
+.service{
+    position: absolute;
+    bottom: 50px;
+    left: 38%;
+}
+.feature{
+    width: 100%;
+    padding: 0 10px;
+}
+.btn-feature{
+    margin-right: 10px;
+}
+.btn-post{
+    margin-left: 10px;
+}
+.home .list-post {
+    padding-top: 25px;
+}
+
+.home .list-post article {
+    margin-bottom: 10px;
+}
+
+.home .list-post .figure, .list-post .figure .figure-img {
+    width: 100%;
+
+}
+.img-fluid{
+    min-height: 230px;
+    max-height: 230px;
+    object-fit: cover;
+}
+
+.home .list-post .figure a {
+    text-decoration: none;
+    color: #3a7bd5;
+    font-family: SourceSansPro;
+    font-size: 15px;;
+}
+
+.home .list-post .figure .figure-title {
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 315px;
+}
+
+.home .list-post .figure-caption {
+    padding: 10px 0 10px 0;
+    color: #333333;
+
+}
+.home .list-post .figure-caption span {
+    color: #999999;
+}
+
+.home .parent {
+    width: 100%;
+    height: 30%;
+    overflow: hidden
+}
+
+.figure-caption.descriptions{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.6em;
+    max-height: 4.0em;
+}
+
+.post-desc{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 4 !important;
+    line-height: 1.6em !important;
+    max-height: 7.0em !important;
+}
+.search-box{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.breadcrumb-item {
+    padding: 0;
+}

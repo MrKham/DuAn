@@ -1,0 +1,26 @@
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#header {
+		padding-right: 15px;
+        padding-left: 15px;
+	}
+	#header .user-infor .dang-du-an {
+		display: none;
+	}
+
+	#header .search {
+		display: none;
+	}
+
+	#header .search-header {
+		display: none;
+	}
+
+	#header nav.navbar {
+	    height: 50px;
+	}
+
+	.near_footer .btn-near-footer:first-child {
+        margin-right: 5px;
+    }
+}
