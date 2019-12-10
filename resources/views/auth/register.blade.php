@@ -24,14 +24,14 @@
                     {!! Form::materialText("r-email", '', trans('general.EMAIL')." *", "Nhập Email") !!}
                     {!! Form::materialPassword("r-password", trans('general.PASSWORD')." *") !!}
                     {!! Form::materialPassword("cf-password", trans('general.PASSWORD_CONFIRM')." *") !!}
-                    <div id="register_recaptcha">
+                    {{-- <div id="register_recaptcha">
                         <div class="g-recaptcha" data-sitekey="{{ config("app.RECAPTCHA_SITE_KEY") }}"></div>
                         @if (isset($errors) && $errors->has('g-recaptcha-response'))
                             @foreach ($errors->get('g-recaptcha-response') as $error)
                                 <div class="invalid-feedback" style="display: block;">{{ $error }}</div>
                             @endforeach
                         @endif
-                    </div>
+                    </div> --}}
                     {!! Form::lbSubmit(trans('menu.DANG_KY'), ['class' => 'btn btn-primary btn-lg btn-block']) !!}
                     <span class="clearfix"></span>
                 </div>

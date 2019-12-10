@@ -63,8 +63,8 @@ class RegisterController extends Controller
     {
         \DB::beginTransaction();
         try {
-            $captcha = $request->input('g-recaptcha-response');
-            if (Helper::validateReCaptcha($captcha)) {
+            // $captcha = $request->input('g-recaptcha-response');
+            // if (Helper::validateReCaptcha($captcha)) {
                 $user = new User();
                 $user->name = $request->name;
                 $user->email = $request->input('r-email');
@@ -76,9 +76,9 @@ class RegisterController extends Controller
                     'flash_level' => 'success',
                     'flash_message' => 'Đăng ký thành công, vui lòng kiểm tra mail để kích hoạt tài khoản'
                 ]);
-            } else {
-                return redirect(url('/register'));
-            }
+            // } else {
+            //     return redirect(url('/register'));
+            // }
         } catch (\Exception $e) {
             \DB::rollBack();
             return ['status' => 500,
