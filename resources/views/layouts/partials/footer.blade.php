@@ -6,13 +6,13 @@
 					<p class="menuft-title">@lang('menu.VE_FUNDSTART')</p>
 					<ul class="menuft">
 						<li class="menu-item">
-							<a href="{{ route("ve-chung-toi") }}">@lang('menu.VE_CHUNG_TOI')</a>
+							<a href="#">@lang('menu.VE_CHUNG_TOI')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url(@\App\Models\Cms::getUrlByCode('qthd_footer')) }}">@lang('menu.QUY_TRINH_HOAT_DONG')</a>
+							<a href="#">@lang('menu.QUY_TRINH_HOAT_DONG')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url("tin-tuc") }}">@lang('menu.BAO_CHI')</a>
+							<a href="#">@lang('menu.BAO_CHI')</a>
 						</li>
 					</ul>
 				</div>
@@ -22,13 +22,13 @@
 					<p class="menuft-title">@lang('menu.DU_AN')</p>
 					<ul class="menuft">
 						<li class="menu-item">
-							<a href="{{ url("du-an") }}">@lang('menu.BAT_DAU_DU_AN')</a>
+							<a href="#">@lang('menu.BAT_DAU_DU_AN')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url(@\App\Models\Cms::getUrlByCode('cpda_footer')) }}">@lang('menu.CHI_PHI')</a>
+							<a href="#">@lang('menu.CHI_PHI')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url(@\App\Models\Cms::getUrlByCode('hdda_footer')) }}">@lang('menu.HUONG_DAN')</a>
+							<a href="#">@lang('menu.HUONG_DAN')</a>
 						</li>
 					</ul>
 				</div>
@@ -38,16 +38,16 @@
 					<p class="menuft-title">@lang('menu.HO_TRO')</p>
 					<ul class="menuft">
 						<li class="menu-item">
-							<a href="{{ url("dieu-khoan-su-dung") }}">@lang('menu.DIEU_KHOAN_SU_DUNG')</a>
+							<a href="#">@lang('menu.DIEU_KHOAN_SU_DUNG')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url("faqs") }}">@lang('menu.HOI_DAP')</a>
+							<a href="#">@lang('menu.HOI_DAP')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url(@\App\Models\Cms::getUrlByCode('lienhe_footer')) }}">@lang('menu.LIEN_HE')</a>
+							<a href="#">@lang('menu.LIEN_HE')</a>
 						</li>
 						<li class="menu-item">
-							<a href="{{ url(@\App\Models\Cms::getUrlByCode('csht_footer')) }}">@lang('menu.CHINH_SACH_HOAN_TIEN')</a>
+							<a href="#">@lang('menu.CHINH_SACH_HOAN_TIEN')</a>
 						</li>
 					</ul>
 				</div>
@@ -56,16 +56,16 @@
 				<span>@lang('menu.FOLLOW_US'): </span>
 				<ul class="list-inline social-list-icon">
 					<li class="list-inline-item">
-						<a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/fundstart"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a class="social-icon text-xs-center" target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a class="social-icon text-xs-center" target="_blank" href="https://plus.google.com/u/0/112872929350095984063/posts/p/pub"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a class="social-icon text-xs-center" target="_blank" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/fundstartvn"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a class="social-icon text-xs-center" target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					</li>
 					<li class="list-inline-item">
-						<a class="social-icon text-xs-center" target="_blank" href="https://www.youtube.com/channel/UC7MNxERGru2msP0q5pmA1qA"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						<a class="social-icon text-xs-center" target="_blank" href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 				<p style="margin-top: 10px;">@lang('menu.NHAN_THONG_TIN_MOI_NHAT_TU_FUNDSTART')</p>
@@ -77,7 +77,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row infor-company">
+		<!-- <div class="row infor-company">
 			<div class="col-lg-7 col-xs-12">
 				<div class="copyright">
 					@if (app()->getLocale() == 'vi')
@@ -112,7 +112,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </footer>
 

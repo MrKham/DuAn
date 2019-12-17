@@ -189,9 +189,9 @@
                         <li class="nav-item @yield('sidebar_discover')">
                             <a class="nav-link" href="{{url('discover')}}">@lang('menu.KHAM_PHA')</a>
                         </li>
-                        <li class="nav-item @yield('sidebar_me')">
+                        <!-- <li class="nav-item @yield('sidebar_me')">
                             <a class="nav-link" href="{{ route('ve-chung-toi') }}">@lang('menu.TIM_HIEU')</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item @yield('sidebar_post')">
                             <a class="nav-link" href="{{ url('tin-tuc') }}">@lang('menu.TIN_TUC')</a>
                         </li>
@@ -318,7 +318,7 @@
                        style="margin-right: 15px;"></i>@lang('menu.DANG_DU_AN')
                 </a>
                 <div class="float-right">
-                    <ul class="nav navbar-nav languages">
+                    <!-- <ul class="nav navbar-nav languages">
                         <li class="dropdown">
                             @if(\App::getLocale() == 'en')
                                 <a href="#" class="dropdown-toggle" lang="en" title="English" data-toggle="dropdown"
@@ -347,7 +347,7 @@
                                     </a></li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="clearfix"></div>
                 {{-- <div class="dropdown languageDropdown">
