@@ -1,8 +1,8 @@
 <meta charset="utf-8">
 <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
-<title>@yield("html_title", "Fundstart VietNam")</title>
-<meta name="author" content="Fundstart">
+<title>@yield("html_title", "InvestStartup")</title>
+<meta name="author" content="InvestStartup">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 

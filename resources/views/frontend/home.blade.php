@@ -20,8 +20,8 @@
         @include('frontend.elements.feature', [
             'project' => $project
         ])
-        @include('frontend.elements.contact')
-        @include('frontend.elements.agency')
+        <!-- @include('frontend.elements.contact') -->
+        <!-- @include('frontend.elements.agency') -->
     </div>
     @include("layouts.partials.near_footer")
 @endsection

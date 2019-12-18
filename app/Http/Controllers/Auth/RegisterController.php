@@ -71,11 +71,13 @@ class RegisterController extends Controller
                 $user->password = bcrypt($request->input('r-password'));
                 $user->save();
                 \DB::commit();
-                dispatch(new SendRegisterEmail($user, 'custom.mail', 'Đăng ký tài khoản thành công'));
-            return redirect('register')->with([
-                    'flash_level' => 'success',
-                    'flash_message' => 'Đăng ký thành công, vui lòng kiểm tra mail để kích hoạt tài khoản'
-                ]);
+            //     dispatch(new SendRegisterEmail($user, 'custom.mail', 'Đăng ký tài khoản thành công'));
+            // return redirect('register')->with([
+            //         'flash_level' => 'success',
+            //         'flash_message' => 'Đăng ký thành công, vui lòng kiểm tra mail để kích hoạt tài khoản'
+            //     ]);
+                \Auth::login($user);
+                return redirect(url('/'));
             // } else {
             //     return redirect(url('/register'));
             // }

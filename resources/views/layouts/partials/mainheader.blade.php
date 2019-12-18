@@ -200,8 +200,7 @@
             </nav>
         </div>
         <div class="col-md-2 col-8" style="text-align: center">
-            <a href="{{ url('/') }}"> <img src="{{asset('/uploads/logo/logo.png')}}"
-                                           style="margin-top: 15px; height: 30px;"></a>
+            <a class="nav-link" href="{{ url('/') }}"><h2><font color="white">InvestStartup</font></h2></a>
         </div>
         <div class="col-md-6 col-2">
             <nav class="navbar navbar-expand-lg pull-right user-infor">
@@ -235,7 +234,7 @@
                                                 <div class="dropdown-divider"></div>
                                             @endif
                                             @if(\Auth::user()->hasRole('admin')|| \Auth::user()->hasRole('project_mod'))
-                                                <a class="dropdown-item"
+                                                <!-- <a class="dropdown-item"
                                                    href="{{ url('/admin/project') }}">@lang('menu.DANH_SACH_DU_AN')</a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item"
@@ -243,16 +242,16 @@
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item"
                                                    href="{{ route('export_projects') }}">@lang('menu.EXPORT_PROJECTS')</a>
-                                                <div class="dropdown-divider"></div>
+                                                <div class="dropdown-divider"></div> -->
                                             @endif
                                             @if(\Auth::user()->hasRole('admin')|| \Auth::user()->hasRole('post_mod'))
-                                                <a class="dropdown-item"
+                                                <!-- <a class="dropdown-item"
                                                    href="{{ url('/post') }}">@lang('menu.QUAN_LY_TIN_TUC')</a>
-                                                <div class="dropdown-divider"></div>
+                                                <div class="dropdown-divider"></div> -->
                                             @endif
                                             @if(\Auth::user()->hasRole('admin'))
-                                                <a class="dropdown-item" href="{{ url('/translations') }}">@lang('menu.DICH')</a>
-                                                <div class="dropdown-divider"></div>
+                                                <!-- <a class="dropdown-item" href="{{ url('/translations') }}">@lang('menu.DICH')</a>
+                                                <div class="dropdown-divider"></div> -->
                                             @endif
                                         </div>
                                         <div class="col-lg-6">
@@ -264,15 +263,15 @@
                                                 <a class="dropdown-item"
                                                    href="{{ url('/user') }}">@lang('menu.QUAN_LY_NGUOI_DUNG')</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item"
+                                                <!-- <a class="dropdown-item"
                                                    href="{{ url('/blacklists') }}">@lang('menu.QUAN_LY_BLACK_LISTS')</a>
-                                                <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item"
+                                                <div class="dropdown-divider"></div> -->
+                                                <!-- <a class="dropdown-item"
                                                    href="{{ route('export_users') }}">@lang('menu.EXPORT_USERS')</a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item"
                                                    href="{{ route('export_subcribers') }}">@lang('menu.EXPORT_SUBCRIBERS')</a>
-                                                <div class="dropdown-divider"></div>
+                                                <div class="dropdown-divider"></div> -->
                                             @endif
                                             <a class="dropdown-item"
                                                href="{{ url('logout') }}">@lang('menu.DANG_XUAT')</a>
@@ -609,23 +608,23 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/admin/project') }}">@lang('menu.DANH_SACH_DU_AN')</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/admin/backer') }}">@lang('menu.QUAN_LY_BACKERS')</a>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                                 <a class="nav-link"
                                    href="{{ route('export_projects') }}">@lang('menu.EXPORT_PROJECTS')</a>
-                            </li>
+                            </li> -->
                         @endif
                         @if(\Auth::user()->hasRole('admin')|| \Auth::user()->hasRole('post_mod'))
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/post') }}">@lang('menu.QUAN_LY_TIN_TUC')</a>
-                            </li>
+                            </li> -->
                         @endif
                         @if(\Auth::user()->hasRole('admin'))
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/translations') }}">@lang('menu.DICH')</a>
-                            </li>
+                            </li> -->
                         @endif
                         <li>
                             <hr/>
@@ -641,17 +640,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/user') }}">@lang('menu.QUAN_LY_NGUOI_DUNG')</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link"
                                    href="{{ url('/blacklists') }}">@lang('menu.QUAN_LY_BLACK_LISTS')</a>
-                            </li>
-                            <li class="nav-item">
+                            </li> -->
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('export_users') }}">@lang('menu.EXPORT_USERS')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link"
                                    href="{{ route('export_subcribers') }}">@lang('menu.EXPORT_SUBCRIBERS')</a>
-                            </li>
+                            </li> -->
                         @endif
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('logout') }}">@lang('menu.DANG_XUAT')</a>

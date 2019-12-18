@@ -28,7 +28,7 @@ class RegisterRequest extends FormRequest
             'r-email' => 'required|email|unique:users,email',
             'r-password' => 'required|min:6',
             'cf-password' => 'required|same:r-password',
-            'g-recaptcha-response' => 'required'
+            // 'g-recaptcha-response' => 'required'
         ];
     }
 
@@ -43,7 +43,7 @@ class RegisterRequest extends FormRequest
             'r-password.min' => 'Mật khẩu phải có ít nhất 6 ký tự',
             'cf-password.required' => 'Mật khẩu xác nhận bắt buộc nhập',
             'cf-password.same' => 'Mật khẩu xác nhận không trùng khớp',
-            'g-recaptcha-response.required' => 'Vui lòng tích chọn captcha',
+            // 'g-recaptcha-response.required' => 'Vui lòng tích chọn captcha',
         ];
     }
 }
