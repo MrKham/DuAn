@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Mail;
 class Helper 
 {
   static $cms_type = [
-      ['name' => 'cms.VE_FUNDSTART', 'value' => 've-fundstart', 'image' => 'images/VeFundstart.jpg'],
+      ['name' => 'cms.VE_IS', 'value' => 've-fundstart', 'image' => 'images/VeFundstart.jpg'],
       ['name' => 'cms.DANH_CHO_CHU_DU_AN', 'value' => 'chu-du-an', 'image' => 'images/DanhChoChuDuAn.jpg'],
       ['name' => 'cms.DANH_CHO_NGUOI_DONG_GOP', 'value' => 'nguoi-dong-gop', 'image' => 'images/DanhChoNguoiDongGop.jpg'],
       ['name' => 'cms.DIEU_KHOAN_SU_DUNG', 'value' => 'dieu-khoan-su-dung', 'image' => 'images/DieuKhoanSuDung.jpg'],

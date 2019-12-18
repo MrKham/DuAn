@@ -35,7 +35,7 @@ class UserController extends Controller
 
                 return redirect('/')->with([
                     'flash_level' => 'success',
-                    'flash_message' => 'Bạn đã kích hoạt tài khoản thành công. Chào mứng bạn đến với fundstart'
+                    'flash_message' => 'Bạn đã kích hoạt tài khoản thành công. Chào mứng bạn đến với InvestStartup'
                 ]);
             } else {
                 return redirect()->route('home');

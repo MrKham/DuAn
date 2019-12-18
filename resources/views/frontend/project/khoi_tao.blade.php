@@ -24,9 +24,9 @@
                         <input type="checkbox" name="rule" class="rule-input">
                         <label class="rule-input-label" for="rule-input">
                             @if (app()->getLocale() == 'vi')
-                            Tôi đồng ý với các <a href="{{ url("dieu-khoan-su-dung") }}" target="_blank">điều khoản của Fundstart</a> khi tạo dự án
+                            Tôi đồng ý với các <a href="{{ url("dieu-khoan-su-dung") }}" target="_blank">điều khoản của InvestStartup</a> khi tạo dự án
                             @else
-                            I agree with the <a href="{{ url("dieu-khoan-su-dung") }}" target="_blank">FundStart’s Terms & Conditions</a>
+                            I agree with the <a href="{{ url("dieu-khoan-su-dung") }}" target="_blank">InvestStartup's Terms & Conditions</a>
                             @endif
                         </label>
                         @if (isset($errors) && $errors->has('rule'))

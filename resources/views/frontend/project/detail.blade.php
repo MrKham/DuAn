@@ -11,7 +11,7 @@
     <meta property="og:description" content="{{ $project->headline }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ request()->fullUrl() }}">
-    <meta property="og:site_name" content="Fundstart">
+    <meta property="og:site_name" content="InvestStartup">
     <meta property="og:image" content="{{ url("/lbmediacenter/$project->avatar_id") }}">
     <meta property="og:locale" content="vi_VN">
 

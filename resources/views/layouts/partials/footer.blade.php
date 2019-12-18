@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-2">
 				<div class="wigets_footer">
-					<p class="menuft-title">@lang('menu.VE_FUNDSTART')</p>
+					<p class="menuft-title">@lang('menu.VE_IS')</p>
 					<ul class="menuft">
 						<li class="menu-item">
 							<a href="#">@lang('menu.VE_CHUNG_TOI')</a>

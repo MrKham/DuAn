@@ -24,7 +24,7 @@ return array (
   'NHAP_KY_TU_TIM_KIEM' => 'Nhập từ khóa tìm kiếm',
   'NEAR_FOOTER_CONTENT' => 'Khám phá các chiến dịch crowdfunding mới hoặc bắt đầu chiến dịch của riêng bạn để gây quỹ.',
   'NEAR_FOOTER_TITLE' => 'Bắt đầu ngay hôm nay',
-  'VE_FUNDSTART' => 'Về Fundstart',
+  'VE_IS' => 'Về InvestStartup',
   'VE_CHUNG_TOI' => 'Về chúng tôi',
   'QUY_TRINH_HOAT_DONG' => 'Quy trình hoạt động',
   'BAO_CHI' => 'Báo chí',

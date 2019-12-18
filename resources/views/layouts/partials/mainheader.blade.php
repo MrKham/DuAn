@@ -234,10 +234,10 @@
                                                 <div class="dropdown-divider"></div>
                                             @endif
                                             @if(\Auth::user()->hasRole('admin')|| \Auth::user()->hasRole('project_mod'))
-                                                <!-- <a class="dropdown-item"
+                                                <a class="dropdown-item"
                                                    href="{{ url('/admin/project') }}">@lang('menu.DANH_SACH_DU_AN')</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item"
+                                                <!-- <a class="dropdown-item"
                                                    href="{{ url('/admin/backer') }}">@lang('menu.QUAN_LY_BACKERS')</a>
                                                 <div class="dropdown-divider"></div>
                                                 <a class="dropdown-item"

@@ -36,7 +36,7 @@ class InitProjectRequest extends FormRequest
         return [
             'name.required' => 'Tên dự án bắt buộc nhập',
             'category_id.required_without' => 'Lĩnh vực bắt buộc chọn',
-            'rule.required' => 'Bạn phải đồng ý với điều khoản dịch vụ của Fundstart',
+            'rule.required' => 'Bạn phải đồng ý với điều khoản dịch vụ của InvestStartup',
         ];
     }
 }
